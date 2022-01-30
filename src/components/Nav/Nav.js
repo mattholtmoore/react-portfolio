@@ -4,10 +4,9 @@ import './assets/styles/Hero.css';
 function Nav({ currentPage, handlePageChange }) {
   return (
     <header>
-      <title>Portfolio</title>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <div className="navbar-brand active">PORTFOLIO</div>
+          <div className="navbar-brand active m-3 fs-3 text-info">PORTFOLIO</div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

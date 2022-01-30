@@ -11,30 +11,28 @@ export default function Footer() {
 
         <div className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
-            className="text-muted"
+            className="text-info"
             href="tel:919-495-2272">919-495-2272
           </a>
         </div>
         <div className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
-            className="text-muted"
+            className="text-info"
             href="mailto:mattholtmoore@gmail.com">mattholtmoore@gmail.com
           </a>
         </div>
         <div className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
-            className="text-muted"
+            className="text-info"
             href="https://github.com/mattholtmoore"
-            target="_blank">GitHub
-            <FaGithub />
+            target="_blank">GitHub <FaGithub />
           </a>
         </div>
         <div className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
-            className="text-muted"
+            className="text-info"
             href="https://www.linkedin.com/in/mattholtmoore/"
-            target="_blank">LinkedIn
-            <FaLinkedin />
+            target="_blank">LinkedIn <FaLinkedin />
           </a>
         </div>
 
