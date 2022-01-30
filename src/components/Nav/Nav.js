@@ -12,7 +12,7 @@ function Nav({ currentPage, handlePageChange }) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="nav color">
+            <ul className="nav color fs-5 m-1 p-2">
               <li className="nav-item active">
                 <a
                   href="#about"
