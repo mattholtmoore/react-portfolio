@@ -103,7 +103,7 @@ export default function Projects() {
           <a
             className="btn btn-info btn- mb-2 border border-dark fw-bold"
             href="https://mattholtmoore.github.io/team-profile-generator-project/"
-            target="_blank">Build A Team</a>
+            target="_blank">Build Your Team</a>
           <br />
           <a
             className="btn btn-dark btn-md border border-info fw-bold"
