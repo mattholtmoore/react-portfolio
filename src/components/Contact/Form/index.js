@@ -65,7 +65,7 @@ function Form() {
           placeholder="Send me a message!"
         />
         <button
-          className="btn btn-info mt-5 fw-bold"
+          className="btn btn-info btn-lg mt-5 fw-bold "
           type="button"
           onClick={handleFormSubmit}
           onChange={handleInputChange}
