@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="container py-4 card shadow-lg p-3 mb-5" id="#about">
       <div className="border-bottom pb-2 mb-3">
-        <h3 className="title fs-4 text-muted" >About</h3>
+        <h3 className="title fs-4 text-muted" >About Me</h3>
       </div>
       <div className="p-5 mb-4 text-light bg-dark rounded-3">
         <div className="container-fluid p-5">

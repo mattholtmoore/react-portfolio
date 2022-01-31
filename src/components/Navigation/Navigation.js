@@ -6,15 +6,17 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg">
-        <div className="navbar-brand active m-3 fs-3 text-info">PORTFOLIO</div>
+        <div className="navbar-brand active mx-3 p-3 fs-3 text-info">PORTFOLIO</div>
         <Container>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse className="justify-content-end" id="navbar-nav">
-            <Nav className="nav color fs-5 m-1 p-2">
+            <Nav className="nav color fs-5 m-3 p-2">
               <Nav.Link
                 href="#about"
                 onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className="mx-2"
+
               >
                 About
               </Nav.Link>
@@ -22,6 +24,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 href="#projects"
                 onClick={() => handlePageChange('Projects')}
                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                className="mx-2"
               >
                 Projects
               </Nav.Link>
@@ -29,6 +32,8 @@ function Navigation({ currentPage, handlePageChange }) {
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                className="mx-2"
+
               >
                 Contact
               </Nav.Link>
@@ -36,6 +41,8 @@ function Navigation({ currentPage, handlePageChange }) {
                 href="https://drive.google.com/file/d/1nXVcg15h1yAiVHt2IB30w5wdNqW25o7Z/view?usp=sharing" target="_blank" tabIndex="-1" aria-disabled="true"
                 onClick={() => handlePageChange('Resume')}
                 className="nav-link"
+                className="mx-2"
+
               >
                 Resume
               </Nav.Link>

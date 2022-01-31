@@ -1,23 +1,57 @@
 #one {
   min-height: 300px;
-  background-image: url(../images/storm-img.jpg);
+  /* Photo by <a href="https://unsplash.com/@bermixstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bermix Studio</a> on <a href="https://unsplash.com/s/photos/american-flag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+  background-image: url(../images/flag.jpg);
   background-repeat: round;
 }
 
 #two {
-
   min-height: 300px;
-  background-image: url(../images/rubiks-img.jpg);
+  /* Gif per Giphy: https://giphy.com/gifs/storm-hurricane-irma-nMT8FHxdwgCnS*/
+  background-image: url(../images/hurricane-funny.gif);
   background-repeat: round;
 }
 
 #three {
-
   min-height: 300px;
+  /* Photo by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a> on <a href="https://unsplash.com/s/photos/work-desk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+free to use under https://unsplash.com/license
+^WORKFLOW IMAGE */
   background-image: url(../images/workFlow.jpg);
   background-repeat: round;
 }
+#four {
+  min-height: 300px;
+  /* Photo by <a href="https://unsplash.com/@olav_ahrens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olav Ahrens Røtne</a> on <a href="https://unsplash.com/s/photos/challenge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 
+free to use under https://unsplash.com/license
+^RUBIKS CUBE IMAGE */
+  background-image: url(../images/rubiks-img.jpg);
+  background-repeat: round;
+}
+#five {
+  min-height: 300px;
+  /* Photo by <a href="https://unsplash.com/@flyd2069?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FLY:D</a> on <a href="https://unsplash.com/s/photos/lock-and-key?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background-image: url(../images/lock.jpg);
+  background-repeat: round;
+}
+#six {
+  min-height: 300px;
+  /* Photo by <a href="https://unsplash.com/@thenata?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anastasia Taioglou</a> on <a href="https://unsplash.com/s/photos/16x9-water-pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+  background-image: url(../images/water.jpg);
+  background-repeat: round;
+}
+
+.projects a {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+h2 {
+  color: white;
+}
 
 
 
