@@ -38,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 Contact
               </Nav.Link>
               <Nav.Link
-                href="https://drive.google.com/file/d/1nXVcg15h1yAiVHt2IB30w5wdNqW25o7Z/view?usp=sharing" target="_blank" tabIndex="-1" aria-disabled="true"
+                href="https://drive.google.com/file/d/1iQpkV8c2CJLgN9mQ6NM3j2FJX-N_-6Ce/view?usp=sharing" target="_blank" tabIndex="-1" aria-disabled="true"
                 onClick={() => handlePageChange('Resume')}
                 className="nav-link"
                 className="mx-2"
