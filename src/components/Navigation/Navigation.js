@@ -10,7 +10,8 @@ function Navigation({ currentPage, handlePageChange }) {
         variant="dark"
         expand="lg">
         <div
-          className="navbar-brand active mx-3 p-3 fs-1 text-info">PORTFOLIO</div>
+          className="navbar-brand active mx-3 p-3 fs-1 text-info">PORTFOLIO
+        </div>
         <Container fluid>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav" />
