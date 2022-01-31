@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollButton from '../components/Scroll/ScrollButton';
 import Navigation from './Navigation/Navigation';
 import About from './About/About';
 import Contact from './Contact/Contact';
@@ -25,6 +26,7 @@ export default function PortfolioContainer() {
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 
+      <ScrollButton />
       <Footer />
     </div>
   );
