@@ -22,11 +22,12 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="">
+    <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 
       <ScrollButton />
+
       <Footer />
     </div>
   );

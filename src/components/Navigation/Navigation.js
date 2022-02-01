@@ -10,15 +10,18 @@ function Navigation({ currentPage, handlePageChange }) {
         variant="dark"
         expand="lg">
         <div
-          className="navbar-brand active mx-3 p-3 fs-1 text-info">PORTFOLIO
+          className="navbar-brand active mx-3 p-3 fs-1 text-info"
+        >
+          PORTFOLIO
         </div>
         <Container fluid>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
-            className="justify-content-end" id="responsive-navbar-nav">
+            className="justify-content-end"
+            id="responsive-navbar-nav">
             <Nav
-              className="nav color fs-3 m-3 p-2">
+              className="nav color fs-3 m-2 p-2">
               <Nav.Link
                 href="#about"
                 onClick={() => handlePageChange('About')}
@@ -60,11 +63,13 @@ function Navigation({ currentPage, handlePageChange }) {
         <div
           className="col-md-5 p-lg-5">
           <h1
-            className="text-light text-left fw-bold">Matt Holt Moore</h1>
+            className="text-light text-left fw-bold">Matt Holt Moore
+          </h1>
         </div>
         <div
           className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
+
     </header >
   );
 }

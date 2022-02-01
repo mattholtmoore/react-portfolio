@@ -5,7 +5,9 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
+
       <footer
+
         className="row justify-content-between align-items-center mt-auto p-3 border-top">
 
         <div
@@ -38,8 +40,7 @@ export default function Footer() {
           className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
             className="text-info"
-            href="https://www.instagram.com/mattholtmoore/"
-            target="_blank">Instagram <FaInstagram />
+            href="tel:919-495-2272">919-495-2272
           </a>
         </div>
 

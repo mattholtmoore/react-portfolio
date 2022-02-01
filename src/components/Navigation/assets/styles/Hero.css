@@ -2,8 +2,8 @@
   height: auto;
   width: 100%;
   margin-bottom: 35px;
- /* Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ales Nesetril</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   */
+  /* Photo by <a href="https://unsplash.com/@alesnesetril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ales Nesetril</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
   background-image: url(../images/hero.jpg);
   background-position: center;
   background-size: cover;
