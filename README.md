@@ -21,7 +21,7 @@ This is a dedicated react portfolio to let you know who I am and how to contact 
 ***
 
 ## Visuals
-![portfolio](images/react-portfolio.gif "portfolio gif")
+![react-portfolio](images/react-portfolio.gif "react-portfolio gif")
 ***
 
 ## Questions
