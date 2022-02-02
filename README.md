@@ -15,7 +15,7 @@ This is a dedicated react portfolio to let you know who I am and how to contact 
 ***
 
 ## Links
-[Link to Portfolio](**DEPLOYED LINK COMING SOON**)
+[Link to Portfolio](https://safe-wave-40859.herokuapp.com/)
 
 [Link to GitHub](https://github.com/mattholtmoore/react-portfolio)  
 ***

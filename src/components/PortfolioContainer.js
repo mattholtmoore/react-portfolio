@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import ScrollButton from '../components/Scroll/ScrollButton';
-import Navigation from './Navigation/Navigation';
-import About from './About/About';
-import Contact from './Contact/Contact';
-import Projects from './Projects/Projects';
-import Footer from './Footer/Footer';
+import ScrollButton from '../components/Scroll';
+import Navigation from './Navigation';
+import About from './About/';
+import Contact from './Contact';
+import Projects from './Projects';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
