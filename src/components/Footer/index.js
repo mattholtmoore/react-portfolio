@@ -1,6 +1,6 @@
 import React from 'react';
 import './assets/styles/Footer.css'
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
 
       <footer
 
-        className="row justify-content-between align-items-center mt-auto p-3 border-top">
+        className="row justify-content-between align-items-center mt-auto p-3 border-top fs-1">
 
         <div
           className="col-md-12">
@@ -17,7 +17,7 @@ export default function Footer() {
           className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
             className="text-info"
-            href="mailto:mattholtmoore@gmail.com">mattholtmoore@gmail.com
+            href="mailto:mattholtmoore@gmail.com"><FaEnvelope />
           </a>
         </div>
         <div
@@ -25,7 +25,7 @@ export default function Footer() {
           <a
             className="text-info"
             href="https://github.com/mattholtmoore"
-            target="_blank">GitHub <FaGithub />
+            target="_blank"><FaGithub />
           </a>
         </div>
         <div
@@ -33,14 +33,14 @@ export default function Footer() {
           <a
             className="text-info"
             href="https://www.linkedin.com/in/mattholtmoore/"
-            target="_blank">LinkedIn <FaLinkedin />
+            target="_blank"><FaLinkedin />
           </a>
         </div>
         <div
           className="col-sm-12 col-md-3 text-center justify-content-around">
           <a
             className="text-info"
-            href="tel:919-495-2272">919-495-2272
+            href="tel:919-495-2272"><FaPhone />
           </a>
         </div>
 
