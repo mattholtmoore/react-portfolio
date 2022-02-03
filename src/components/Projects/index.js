@@ -18,7 +18,7 @@ export default function Projects() {
           <br />
           <a
             className="btn btn-dark btn-lg border border-info fw-bold"
-            href="https://github.com/mattholtmoore/presendential-gallery"
+            href="https://github.com/mattholtmoore/presidential-gallery"
             target="_blank">Go To Github</a>
         </div>
       </div>
